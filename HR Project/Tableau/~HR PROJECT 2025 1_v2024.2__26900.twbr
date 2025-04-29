@@ -1,0 +1,3451 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.25.0114.1153                               -->
+<workbook original-version='18.1' source-build='2024.3.3 (20243.25.0114.1153)' source-platform='win' version='18.1' xml:base='https://localhost' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <repository-location derived-from='http://localhost:9100/workbooks/HRPROJECT20251?rev=1.0' id='HRPROJECT20251' path='/workbooks' revision='1.0' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='cleaned_hr_dataset' inline='true' name='federated.0w0rqur14j56ew119br5118rt7ex' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='cleaned_hr_dataset' name='textscan.1adczng1kto4wk1gg7j151tv8eow'>
+            <connection class='textscan' directory='C:/Users/DELL/AppData/Local/Temp/TableauTemp/714808636/Data/1p93f6j0o3p9uc121urxc0s2ns4l' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1adczng1kto4wk1gg7j151tv8eow' name='cleaned_hr_dataset.csv' table='[cleaned_hr_dataset#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='employeeid' ordinal='0' />
+            <column datatype='string' name='firstname' ordinal='1' />
+            <column datatype='string' name='lastname' ordinal='2' />
+            <column datatype='string' name='gender' ordinal='3' />
+            <column datatype='integer' name='age' ordinal='4' />
+            <column datatype='string' name='businesstravel' ordinal='5' />
+            <column datatype='string' name='department' ordinal='6' />
+            <column datatype='integer' name='distancefromhome_km' ordinal='7' />
+            <column datatype='string' name='state' ordinal='8' />
+            <column datatype='string' name='ethnicity' ordinal='9' />
+            <column datatype='integer' name='education' ordinal='10' />
+            <column datatype='string' name='educationfield' ordinal='11' />
+            <column datatype='string' name='jobrole' ordinal='12' />
+            <column datatype='string' name='maritalstatus' ordinal='13' />
+            <column datatype='integer' name='salary' ordinal='14' />
+            <column datatype='integer' name='stockoptionlevel' ordinal='15' />
+            <column datatype='string' name='overtime' ordinal='16' />
+            <column datatype='date' name='hiredate' ordinal='17' />
+            <column datatype='string' name='attrition' ordinal='18' />
+            <column datatype='integer' name='yearsatcompany' ordinal='19' />
+            <column datatype='integer' name='yearsinmostrecentrole' ordinal='20' />
+            <column datatype='integer' name='yearssincelastpromotion' ordinal='21' />
+            <column datatype='integer' name='yearswithcurrmanager' ordinal='22' />
+            <column datatype='string' name='performanceid' ordinal='23' />
+            <column datatype='date' name='reviewdate' ordinal='24' />
+            <column datatype='real' name='environmentsatisfaction' ordinal='25' />
+            <column datatype='real' name='jobsatisfaction' ordinal='26' />
+            <column datatype='real' name='relationshipsatisfaction' ordinal='27' />
+            <column datatype='real' name='trainingopportunitieswithinyear' ordinal='28' />
+            <column datatype='real' name='trainingopportunitiestaken' ordinal='29' />
+            <column datatype='real' name='worklifebalance' ordinal='30' />
+            <column datatype='real' name='selfrating' ordinal='31' />
+            <column datatype='real' name='managerrating' ordinal='32' />
+            <column datatype='string' name='satisfactionlevel' ordinal='33' />
+            <column datatype='string' name='ratinglevel' ordinal='34' />
+            <column datatype='string' name='educationlevel' ordinal='35' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[cleaned_hr_dataset.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>employeeid</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[employeeid]</local-name>
+            <parent-name>[cleaned_hr_dataset.csv]</parent-name>
+            <remote-alias>employeeid</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>firstname</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[firstname]</local-name>
+            <parent-name>[cleaned_hr_dataset.csv]</parent-name>
+            <remote-alias>firstname</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lastname</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[lastname]</local-name>
+            <parent-name>[cleaned_hr_dataset.csv]</parent-name>
+            <remote-alias>lastname</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gender</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[gender]</local-name>
+            <parent-name>[cleaned_hr_dataset.csv]</parent-name>
+            <remote-alias>gender</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[age]</local-name>
+            <parent-name>[cleaned_hr_dataset.csv]</parent-name>
+            <remote-alias>age</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>businesstravel</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[businesstravel]</local-name>
+            <parent-name>[cleaned_hr_dataset.csv]</parent-name>
+            <remote-alias>businesstravel</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>department</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[department]</local-name>
+            <parent-name>[cleaned_hr_dataset.csv]</parent-name>
+            <remote-alias>department</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>distancefromhome_km</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[distancefromhome_km]</local-name>
+            <parent-name>[cleaned_hr_dataset.csv]</parent-name>
+            <remote-alias>distancefromhome_km</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>state</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[state]</local-name>
+            <parent-name>[cleaned_hr_dataset.csv]</parent-name>
+            <remote-alias>state</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ethnicity</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ethnicity]</local-name>
+            <parent-name>[cleaned_hr_dataset.csv]</parent-name>
+            <remote-alias>ethnicity</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>education</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[education]</local-name>
+            <parent-name>[cleaned_hr_dataset.csv]</parent-name>
+            <remote-alias>education</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>educationfield</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[educationfield]</local-name>
+            <parent-name>[cleaned_hr_dataset.csv]</parent-name>
+            <remote-alias>educationfield</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>jobrole</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[jobrole]</local-name>
+            <parent-name>[cleaned_hr_dataset.csv]</parent-name>
+            <remote-alias>jobrole</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>maritalstatus</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[maritalstatus]</local-name>
+            <parent-name>[cleaned_hr_dataset.csv]</parent-name>
+            <remote-alias>maritalstatus</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>salary</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[salary]</local-name>
+            <parent-name>[cleaned_hr_dataset.csv]</parent-name>
+            <remote-alias>salary</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stockoptionlevel</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[stockoptionlevel]</local-name>
+            <parent-name>[cleaned_hr_dataset.csv]</parent-name>
+            <remote-alias>stockoptionlevel</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>overtime</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[overtime]</local-name>
+            <parent-name>[cleaned_hr_dataset.csv]</parent-name>
+            <remote-alias>overtime</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hiredate</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[hiredate]</local-name>
+            <parent-name>[cleaned_hr_dataset.csv]</parent-name>
+            <remote-alias>hiredate</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>attrition</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[attrition]</local-name>
+            <parent-name>[cleaned_hr_dataset.csv]</parent-name>
+            <remote-alias>attrition</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>yearsatcompany</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[yearsatcompany]</local-name>
+            <parent-name>[cleaned_hr_dataset.csv]</parent-name>
+            <remote-alias>yearsatcompany</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>yearsinmostrecentrole</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[yearsinmostrecentrole]</local-name>
+            <parent-name>[cleaned_hr_dataset.csv]</parent-name>
+            <remote-alias>yearsinmostrecentrole</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>yearssincelastpromotion</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[yearssincelastpromotion]</local-name>
+            <parent-name>[cleaned_hr_dataset.csv]</parent-name>
+            <remote-alias>yearssincelastpromotion</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>yearswithcurrmanager</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[yearswithcurrmanager]</local-name>
+            <parent-name>[cleaned_hr_dataset.csv]</parent-name>
+            <remote-alias>yearswithcurrmanager</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>performanceid</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[performanceid]</local-name>
+            <parent-name>[cleaned_hr_dataset.csv]</parent-name>
+            <remote-alias>performanceid</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>reviewdate</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[reviewdate]</local-name>
+            <parent-name>[cleaned_hr_dataset.csv]</parent-name>
+            <remote-alias>reviewdate</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>environmentsatisfaction</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[environmentsatisfaction]</local-name>
+            <parent-name>[cleaned_hr_dataset.csv]</parent-name>
+            <remote-alias>environmentsatisfaction</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>jobsatisfaction</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[jobsatisfaction]</local-name>
+            <parent-name>[cleaned_hr_dataset.csv]</parent-name>
+            <remote-alias>jobsatisfaction</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>relationshipsatisfaction</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[relationshipsatisfaction]</local-name>
+            <parent-name>[cleaned_hr_dataset.csv]</parent-name>
+            <remote-alias>relationshipsatisfaction</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>trainingopportunitieswithinyear</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[trainingopportunitieswithinyear]</local-name>
+            <parent-name>[cleaned_hr_dataset.csv]</parent-name>
+            <remote-alias>trainingopportunitieswithinyear</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>trainingopportunitiestaken</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[trainingopportunitiestaken]</local-name>
+            <parent-name>[cleaned_hr_dataset.csv]</parent-name>
+            <remote-alias>trainingopportunitiestaken</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>worklifebalance</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[worklifebalance]</local-name>
+            <parent-name>[cleaned_hr_dataset.csv]</parent-name>
+            <remote-alias>worklifebalance</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>selfrating</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[selfrating]</local-name>
+            <parent-name>[cleaned_hr_dataset.csv]</parent-name>
+            <remote-alias>selfrating</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>managerrating</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[managerrating]</local-name>
+            <parent-name>[cleaned_hr_dataset.csv]</parent-name>
+            <remote-alias>managerrating</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>satisfactionlevel</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[satisfactionlevel]</local-name>
+            <parent-name>[cleaned_hr_dataset.csv]</parent-name>
+            <remote-alias>satisfactionlevel</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ratinglevel</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ratinglevel]</local-name>
+            <parent-name>[cleaned_hr_dataset.csv]</parent-name>
+            <remote-alias>ratinglevel</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>educationlevel</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[educationlevel]</local-name>
+            <parent-name>[cleaned_hr_dataset.csv]</parent-name>
+            <remote-alias>educationlevel</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='real' default-format='p0.00%' name='[Calculation1]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Calculation_1055584711454725]) / TOTAL(SUM([Calculation_1055584711454725]))'>
+          <table-calc ordering-type='Columns' />
+        </calculation>
+      </column>
+      <column datatype='real' default-format='p0.00%' name='[Calculation2]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Calculation_1055584711454725]) / TOTAL(SUM([Calculation_1055584711454725]))'>
+          <table-calc ordering-type='Columns' />
+        </calculation>
+      </column>
+      <column datatype='real' default-format='p0.00%' name='[Calculation3]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Calculation_1055585749430312]) / TOTAL(SUM([Calculation_1055585749430312]))'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column datatype='real' default-format='p0.00%' name='[Calculation4]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Calculation_1055584711454725]) / TOTAL(SUM([Calculation_1055584711454725]))'>
+          <table-calc ordering-field='[federated.0w0rqur14j56ew119br5118rt7ex].[none:attrition:nk]' ordering-type='Field' />
+        </calculation>
+      </column>
+      <column caption='Attrition Rate' datatype='integer' name='[Calculation_1055584711454725]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [attrition] = &apos;Yes&apos; THEN 1 ELSE 0 END' />
+      </column>
+      <column caption='Turnover Rate' datatype='integer' name='[Calculation_1055584714043398]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [attrition] = &apos;Yes&apos; THEN 1 ELSE 0 END' />
+      </column>
+      <column caption='overall Satisfaction' datatype='real' name='[Calculation_1055584716677127]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='([jobsatisfaction] + [environmentsatisfaction] + [relationshipsatisfaction]) / 3' />
+      </column>
+      <column caption='Attrition Indicator' datatype='integer' name='[Calculation_1055584718864392]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [attrition] = &apos;Yes&apos; THEN 1 ELSE 0 END' />
+      </column>
+      <column caption='Attrition Indicator 1 ' datatype='integer' name='[Calculation_1055585742368804]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [attrition] = &apos;Yes&apos; THEN 1 ELSE 0 END' />
+      </column>
+      <column caption='Promotion Indicator' datatype='integer' name='[Calculation_1055585749430312]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [yearssincelastpromotion] &gt; 0 THEN 1 ELSE 0 END' />
+      </column>
+      <column caption='Satisfied Employee' datatype='string' name='[Calculation_1055585763799083]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [jobsatisfaction] &gt;= 3 THEN &apos;Satisfied&apos; ELSE &apos;Not Satisfied&apos; END' />
+      </column>
+      <column aggregation='None' caption='Jobsatisfaction (bin)' datatype='integer' name='[Jobsatisfaction (bin)]' role='dimension' type='ordinal'>
+        <calculation class='bin' decimals='-3' formula='[jobsatisfaction]' peg='0' size='0.798' />
+      </column>
+      <column aggregation='None' datatype='integer' name='[Salary (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='4' formula='[salary]' peg='0' size='14682' />
+      </column>
+      <column caption='cleaned_hr_dataset.csv' datatype='table' name='[__tableau_internal_object_id__].[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]' role='measure' type='quantitative' />
+      <column caption='Age' datatype='integer' name='[age]' role='measure' type='quantitative' />
+      <column caption='Attrition' datatype='string' name='[attrition]' role='dimension' type='nominal' />
+      <column caption='Businesstravel' datatype='string' name='[businesstravel]' role='dimension' type='nominal' />
+      <column caption='Department' datatype='string' name='[department]' role='dimension' type='nominal' />
+      <column caption='Distancefromhome Km' datatype='integer' name='[distancefromhome_km]' role='measure' type='quantitative' />
+      <column caption='Education' datatype='integer' name='[education]' role='measure' type='quantitative' />
+      <column caption='Educationfield' datatype='string' name='[educationfield]' role='dimension' type='nominal' />
+      <column caption='Educationlevel' datatype='string' name='[educationlevel]' role='dimension' type='nominal' />
+      <column caption='Employeeid' datatype='string' name='[employeeid]' role='dimension' type='nominal' />
+      <column caption='Environmentsatisfaction' datatype='real' name='[environmentsatisfaction]' role='measure' type='quantitative' />
+      <column caption='Ethnicity' datatype='string' name='[ethnicity]' role='dimension' type='nominal' />
+      <column caption='Firstname' datatype='string' name='[firstname]' role='dimension' type='nominal' />
+      <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal' />
+      <column caption='Hiredate' datatype='date' name='[hiredate]' role='dimension' type='ordinal' />
+      <column caption='Jobrole' datatype='string' name='[jobrole]' role='dimension' type='nominal' />
+      <column caption='Jobsatisfaction' datatype='real' name='[jobsatisfaction]' role='measure' type='quantitative' />
+      <column caption='Lastname' datatype='string' name='[lastname]' role='dimension' type='nominal' />
+      <column caption='Managerrating' datatype='real' name='[managerrating]' role='measure' type='quantitative' />
+      <column caption='Maritalstatus' datatype='string' name='[maritalstatus]' role='dimension' type='nominal' />
+      <column aggregation='None' caption='overall Satisfaction (bin)' datatype='integer' name='[overall Satisfaction (bin)]' role='dimension' type='ordinal'>
+        <calculation class='bin' decimals='0' formula='[Calculation_1055584716677127]' peg='0' size='1' />
+      </column>
+      <column caption='Overtime' datatype='string' name='[overtime]' role='dimension' type='nominal' />
+      <column caption='Performanceid' datatype='string' name='[performanceid]' role='dimension' type='nominal' />
+      <column caption='Ratinglevel' datatype='string' name='[ratinglevel]' role='dimension' type='nominal' />
+      <column caption='Relationshipsatisfaction' datatype='real' name='[relationshipsatisfaction]' role='measure' type='quantitative' />
+      <column caption='Reviewdate' datatype='date' name='[reviewdate]' role='dimension' type='ordinal' />
+      <column caption='Salary' datatype='integer' name='[salary]' role='measure' type='quantitative' />
+      <column caption='Satisfactionlevel' datatype='string' name='[satisfactionlevel]' role='dimension' type='nominal' />
+      <column caption='Selfrating' datatype='real' name='[selfrating]' role='measure' type='quantitative' />
+      <column caption='State' datatype='string' name='[state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Stockoptionlevel' datatype='integer' name='[stockoptionlevel]' role='measure' type='quantitative' />
+      <column caption='Trainingopportunitiestaken' datatype='real' name='[trainingopportunitiestaken]' role='measure' type='quantitative' />
+      <column caption='Trainingopportunitieswithinyear' datatype='real' name='[trainingopportunitieswithinyear]' role='measure' type='quantitative' />
+      <column caption='Worklifebalance' datatype='real' name='[worklifebalance]' role='measure' type='quantitative' />
+      <column caption='Yearsatcompany' datatype='integer' name='[yearsatcompany]' role='measure' type='quantitative' />
+      <column caption='Yearsinmostrecentrole' datatype='integer' name='[yearsinmostrecentrole]' role='measure' type='quantitative' />
+      <column caption='Yearssincelastpromotion' datatype='integer' name='[yearssincelastpromotion]' role='measure' type='quantitative' />
+      <column caption='Yearswithcurrmanager' datatype='integer' name='[yearswithcurrmanager]' role='measure' type='quantitative' />
+      <column-instance column='[salary]' derivation='Avg' name='[avg:salary:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[employeeid]' derivation='Count' name='[cnt:employeeid:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1055585763799083]' derivation='None' name='[none:Calculation_1055585763799083:nk]' pivot='key' type='nominal' />
+      <column-instance column='[attrition]' derivation='None' name='[none:attrition:nk]' pivot='key' type='nominal' />
+      <column-instance column='[department]' derivation='None' name='[none:department:nk]' pivot='key' type='nominal' />
+      <column-instance column='[educationlevel]' derivation='None' name='[none:educationlevel:nk]' pivot='key' type='nominal' />
+      <column-instance column='[gender]' derivation='None' name='[none:gender:nk]' pivot='key' type='nominal' />
+      <column-instance column='[jobrole]' derivation='None' name='[none:jobrole:nk]' pivot='key' type='nominal' />
+      <column-instance column='[employeeid]' derivation='Count' name='[pcto:cnt:employeeid:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Rows' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[Calculation_1055584711454725]' derivation='Sum' name='[pcto:sum:Calculation_1055584711454725:qk:1]' pivot='key' type='quantitative'>
+        <table-calc ordering-field='[federated.0w0rqur14j56ew119br5118rt7ex].[none:attrition:nk]' ordering-type='Field' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[Calculation_1055584711454725]' derivation='Sum' name='[pcto:sum:Calculation_1055584711454725:qk:3]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Field' type='PctTotal'>
+          <order field='[federated.0w0rqur14j56ew119br5118rt7ex].[none:attrition:nk]' />
+          <order field='[federated.0w0rqur14j56ew119br5118rt7ex].[none:department:nk]' />
+          <order field='[federated.0w0rqur14j56ew119br5118rt7ex].[none:gender:nk]' />
+        </table-calc>
+      </column-instance>
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3' units='records'>
+        <connection authentication='auth-none' author-locale='en_US' class='hyper' dbname='Data/Extracts/federated_0w0rqur14j56ew119br511.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='03/04/2025 08:26:05 PM' username=''>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='cleaned_hr_dataset' increment-value='%null%' refresh-type='create' rows-inserted='6899' timestamp-start='2025-03-04 20:26:05.442' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>employeeid</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[employeeid]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>employeeid</remote-alias>
+              <ordinal>0</ordinal>
+              <family>cleaned_hr_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1411</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>firstname</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[firstname]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>firstname</remote-alias>
+              <ordinal>1</ordinal>
+              <family>cleaned_hr_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1330</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>lastname</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[lastname]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>lastname</remote-alias>
+              <ordinal>2</ordinal>
+              <family>cleaned_hr_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1398</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>gender</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[gender]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>gender</remote-alias>
+              <ordinal>3</ordinal>
+              <family>cleaned_hr_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>age</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[age]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>age</remote-alias>
+              <ordinal>4</ordinal>
+              <family>cleaned_hr_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>33</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>businesstravel</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[businesstravel]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>businesstravel</remote-alias>
+              <ordinal>5</ordinal>
+              <family>cleaned_hr_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>department</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[department]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>department</remote-alias>
+              <ordinal>6</ordinal>
+              <family>cleaned_hr_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>distancefromhome_km</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[distancefromhome_km]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>distancefromhome_km</remote-alias>
+              <ordinal>7</ordinal>
+              <family>cleaned_hr_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>45</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>state</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[state]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>state</remote-alias>
+              <ordinal>8</ordinal>
+              <family>cleaned_hr_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ethnicity</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[ethnicity]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ethnicity</remote-alias>
+              <ordinal>9</ordinal>
+              <family>cleaned_hr_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>education</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[education]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>education</remote-alias>
+              <ordinal>10</ordinal>
+              <family>cleaned_hr_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>educationfield</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[educationfield]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>educationfield</remote-alias>
+              <ordinal>11</ordinal>
+              <family>cleaned_hr_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>jobrole</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[jobrole]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>jobrole</remote-alias>
+              <ordinal>12</ordinal>
+              <family>cleaned_hr_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>13</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>maritalstatus</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[maritalstatus]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>maritalstatus</remote-alias>
+              <ordinal>13</ordinal>
+              <family>cleaned_hr_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>salary</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[salary]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>salary</remote-alias>
+              <ordinal>14</ordinal>
+              <family>cleaned_hr_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1400</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>stockoptionlevel</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[stockoptionlevel]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>stockoptionlevel</remote-alias>
+              <ordinal>15</ordinal>
+              <family>cleaned_hr_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>overtime</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[overtime]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>overtime</remote-alias>
+              <ordinal>16</ordinal>
+              <family>cleaned_hr_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>hiredate</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[hiredate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>hiredate</remote-alias>
+              <ordinal>17</ordinal>
+              <family>cleaned_hr_dataset.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>1149</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>attrition</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[attrition]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>attrition</remote-alias>
+              <ordinal>18</ordinal>
+              <family>cleaned_hr_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>yearsatcompany</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[yearsatcompany]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>yearsatcompany</remote-alias>
+              <ordinal>19</ordinal>
+              <family>cleaned_hr_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>yearsinmostrecentrole</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[yearsinmostrecentrole]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>yearsinmostrecentrole</remote-alias>
+              <ordinal>20</ordinal>
+              <family>cleaned_hr_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>yearssincelastpromotion</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[yearssincelastpromotion]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>yearssincelastpromotion</remote-alias>
+              <ordinal>21</ordinal>
+              <family>cleaned_hr_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>yearswithcurrmanager</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[yearswithcurrmanager]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>yearswithcurrmanager</remote-alias>
+              <ordinal>22</ordinal>
+              <family>cleaned_hr_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>performanceid</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[performanceid]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>performanceid</remote-alias>
+              <ordinal>23</ordinal>
+              <family>cleaned_hr_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6539</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>reviewdate</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[reviewdate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>reviewdate</remote-alias>
+              <ordinal>24</ordinal>
+              <family>cleaned_hr_dataset.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>2068</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>environmentsatisfaction</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[environmentsatisfaction]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>environmentsatisfaction</remote-alias>
+              <ordinal>25</ordinal>
+              <family>cleaned_hr_dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>jobsatisfaction</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[jobsatisfaction]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>jobsatisfaction</remote-alias>
+              <ordinal>26</ordinal>
+              <family>cleaned_hr_dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>relationshipsatisfaction</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[relationshipsatisfaction]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>relationshipsatisfaction</remote-alias>
+              <ordinal>27</ordinal>
+              <family>cleaned_hr_dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>trainingopportunitieswithinyear</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[trainingopportunitieswithinyear]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>trainingopportunitieswithinyear</remote-alias>
+              <ordinal>28</ordinal>
+              <family>cleaned_hr_dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>trainingopportunitiestaken</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[trainingopportunitiestaken]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>trainingopportunitiestaken</remote-alias>
+              <ordinal>29</ordinal>
+              <family>cleaned_hr_dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>worklifebalance</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[worklifebalance]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>worklifebalance</remote-alias>
+              <ordinal>30</ordinal>
+              <family>cleaned_hr_dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>selfrating</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[selfrating]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>selfrating</remote-alias>
+              <ordinal>31</ordinal>
+              <family>cleaned_hr_dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>managerrating</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[managerrating]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>managerrating</remote-alias>
+              <ordinal>32</ordinal>
+              <family>cleaned_hr_dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>satisfactionlevel</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[satisfactionlevel]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>satisfactionlevel</remote-alias>
+              <ordinal>33</ordinal>
+              <family>cleaned_hr_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ratinglevel</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[ratinglevel]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ratinglevel</remote-alias>
+              <ordinal>34</ordinal>
+              <family>cleaned_hr_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>educationlevel</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[educationlevel]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>educationlevel</remote-alias>
+              <ordinal>35</ordinal>
+              <family>cleaned_hr_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0w0rqur14j56ew119br5118rt7ex].[avg:salary:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0w0rqur14j56ew119br5118rt7ex].[pcto:sum:Calculation_1055584711454725:qk:3]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0w0rqur14j56ew119br5118rt7ex].[pcto:sum:Calculation_1055584711454725:qk:1]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0w0rqur14j56ew119br5118rt7ex].[cnt:employeeid:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0w0rqur14j56ew119br5118rt7ex].[pcto:cnt:employeeid:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:educationlevel:nk]' palette='red_10_0' type='palette'>
+            <map to='#ae123a'>
+              <bucket>&quot;No Formal Qualifications&quot;</bucket>
+            </map>
+            <map to='#d82f3e'>
+              <bucket>&quot;High School&quot;</bucket>
+            </map>
+            <map to='#f16150'>
+              <bucket>&quot;Masters&quot;</bucket>
+            </map>
+            <map to='#fa917b'>
+              <bucket>&quot;Bachelors&quot;</bucket>
+            </map>
+            <map to='#ffbeb2'>
+              <bucket>&quot;Doctorate&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:department:nk]' palette='red_10_0' type='palette'>
+            <map to='#ae123a'>
+              <bucket>&quot;Technology&quot;</bucket>
+            </map>
+            <map to='#f16150'>
+              <bucket>&quot;Sales&quot;</bucket>
+            </map>
+            <map to='#ffbeb2'>
+              <bucket>&quot;Human Resources&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:jobrole:nk]' palette='red_10_0' type='palette'>
+            <map to='#ae123a'>
+              <bucket>&quot;Software Engineer&quot;</bucket>
+            </map>
+            <map to='#bd183a'>
+              <bucket>&quot;Senior Software Engineer&quot;</bucket>
+            </map>
+            <map to='#cb233c'>
+              <bucket>&quot;Sales Representative&quot;</bucket>
+            </map>
+            <map to='#d82f3e'>
+              <bucket>&quot;Sales Executive&quot;</bucket>
+            </map>
+            <map to='#e33e43'>
+              <bucket>&quot;Recruiter&quot;</bucket>
+            </map>
+            <map to='#eb4f48'>
+              <bucket>&quot;Manager&quot;</bucket>
+            </map>
+            <map to='#f16150'>
+              <bucket>&quot;Machine Learning Engineer&quot;</bucket>
+            </map>
+            <map to='#f5715d'>
+              <bucket>&quot;HR Manager&quot;</bucket>
+            </map>
+            <map to='#f8816b'>
+              <bucket>&quot;HR Executive&quot;</bucket>
+            </map>
+            <map to='#fa917b'>
+              <bucket>&quot;HR Business Partner&quot;</bucket>
+            </map>
+            <map to='#fba08e'>
+              <bucket>&quot;Engineering Manager&quot;</bucket>
+            </map>
+            <map to='#fdae9f'>
+              <bucket>&quot;Data Scientist&quot;</bucket>
+            </map>
+            <map to='#ffbeb2'>
+              <bucket>&quot;Analytics Manager&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:attrition:nk]' palette='red_10_0' type='palette'>
+            <map to='#ae123a'>
+              <bucket>&quot;Yes&quot;</bucket>
+            </map>
+            <map to='#ffbeb2'>
+              <bucket>&quot;No&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Calculation_1055585763799083:nk]' palette='red_10_0' type='palette'>
+            <map to='#d3293d'>
+              <bucket>&quot;Satisfied&quot;</bucket>
+            </map>
+            <map to='#ffbeb2'>
+              <bucket>&quot;Not Satisfied&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:gender:nk]' palette='red_10_0' type='palette'>
+            <map to='#ae123a'>
+              <bucket>&quot;Male&quot;</bucket>
+            </map>
+            <map to='#ae123a'>
+              <bucket>&quot;Prefer Not To Say&quot;</bucket>
+            </map>
+            <map to='#e33e43'>
+              <bucket>&quot;Non-Binary&quot;</bucket>
+            </map>
+            <map to='#ffbeb2'>
+              <bucket>&quot;Female&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='cleaned_hr_dataset.csv' id='cleaned_hr_dataset.csv_0A89D2C0908D4ED5A756E752CA8627C3'>
+            <properties context=''>
+              <relation connection='textscan.1adczng1kto4wk1gg7j151tv8eow' name='cleaned_hr_dataset.csv' table='[cleaned_hr_dataset#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='employeeid' ordinal='0' />
+                  <column datatype='string' name='firstname' ordinal='1' />
+                  <column datatype='string' name='lastname' ordinal='2' />
+                  <column datatype='string' name='gender' ordinal='3' />
+                  <column datatype='integer' name='age' ordinal='4' />
+                  <column datatype='string' name='businesstravel' ordinal='5' />
+                  <column datatype='string' name='department' ordinal='6' />
+                  <column datatype='integer' name='distancefromhome_km' ordinal='7' />
+                  <column datatype='string' name='state' ordinal='8' />
+                  <column datatype='string' name='ethnicity' ordinal='9' />
+                  <column datatype='integer' name='education' ordinal='10' />
+                  <column datatype='string' name='educationfield' ordinal='11' />
+                  <column datatype='string' name='jobrole' ordinal='12' />
+                  <column datatype='string' name='maritalstatus' ordinal='13' />
+                  <column datatype='integer' name='salary' ordinal='14' />
+                  <column datatype='integer' name='stockoptionlevel' ordinal='15' />
+                  <column datatype='string' name='overtime' ordinal='16' />
+                  <column datatype='date' name='hiredate' ordinal='17' />
+                  <column datatype='string' name='attrition' ordinal='18' />
+                  <column datatype='integer' name='yearsatcompany' ordinal='19' />
+                  <column datatype='integer' name='yearsinmostrecentrole' ordinal='20' />
+                  <column datatype='integer' name='yearssincelastpromotion' ordinal='21' />
+                  <column datatype='integer' name='yearswithcurrmanager' ordinal='22' />
+                  <column datatype='string' name='performanceid' ordinal='23' />
+                  <column datatype='date' name='reviewdate' ordinal='24' />
+                  <column datatype='real' name='environmentsatisfaction' ordinal='25' />
+                  <column datatype='real' name='jobsatisfaction' ordinal='26' />
+                  <column datatype='real' name='relationshipsatisfaction' ordinal='27' />
+                  <column datatype='real' name='trainingopportunitieswithinyear' ordinal='28' />
+                  <column datatype='real' name='trainingopportunitiestaken' ordinal='29' />
+                  <column datatype='real' name='worklifebalance' ordinal='30' />
+                  <column datatype='real' name='selfrating' ordinal='31' />
+                  <column datatype='real' name='managerrating' ordinal='32' />
+                  <column datatype='string' name='satisfactionlevel' ordinal='33' />
+                  <column datatype='string' name='ratinglevel' ordinal='34' />
+                  <column datatype='string' name='educationlevel' ordinal='35' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='1-Employee Demographics &amp; Salary Analysis'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#e15759' fontname='Times New Roman'>1-Employee Demographics &amp; Salary Analysis</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='http://localhost:9100/workbooks/HRPROJECT20251/1-EmployeeDemographicsSalaryAnalysis?rev=' id='113288420' path='/workbooks/HRPROJECT20251' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cleaned_hr_dataset' name='federated.0w0rqur14j56ew119br5118rt7ex' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w0rqur14j56ew119br5118rt7ex'>
+            <column-instance column='[employeeid]' derivation='Count' name='[cnt:employeeid:qk]' pivot='key' type='quantitative' />
+            <column caption='Educationlevel' datatype='string' name='[educationlevel]' role='dimension' type='nominal' />
+            <column caption='Employeeid' datatype='string' name='[employeeid]' role='dimension' type='nominal' />
+            <column-instance column='[educationlevel]' derivation='None' name='[none:educationlevel:nk]' pivot='key' type='nominal' />
+            <column-instance column='[employeeid]' derivation='None' name='[none:employeeid:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0w0rqur14j56ew119br5118rt7ex].[none:employeeid:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#e15759' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='has-stroke' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0w0rqur14j56ew119br5118rt7ex].[cnt:employeeid:qk]</rows>
+        <cols>[federated.0w0rqur14j56ew119br5118rt7ex].[none:educationlevel:nk]</cols>
+      </table>
+      <simple-id uuid='{940C4B2D-1214-4FAC-9B0A-2599AC16F2B3}' />
+    </worksheet>
+    <worksheet name='10-Dose job role impact satisfaction level'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#e15759' fontname='Times New Roman'>10-Dose job role impact satisfaction level</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='http://localhost:9100/workbooks/HRPROJECT20251/10-Dosejobroleimpactsatisfactionlevel?rev=' id='113288429' path='/workbooks/HRPROJECT20251' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cleaned_hr_dataset' name='federated.0w0rqur14j56ew119br5118rt7ex' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w0rqur14j56ew119br5118rt7ex'>
+            <column-instance column='[jobsatisfaction]' derivation='Avg' name='[avg:jobsatisfaction:qk]' pivot='key' type='quantitative' />
+            <column caption='Jobrole' datatype='string' name='[jobrole]' role='dimension' type='nominal' />
+            <column caption='Jobsatisfaction' datatype='real' name='[jobsatisfaction]' role='measure' type='quantitative' />
+            <column-instance column='[jobrole]' derivation='None' name='[none:jobrole:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.0w0rqur14j56ew119br5118rt7ex].[none:jobrole:nk]' />
+            </encodings>
+            <reference-line axis-column='[federated.0w0rqur14j56ew119br5118rt7ex].[avg:jobsatisfaction:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.0w0rqur14j56ew119br5118rt7ex].[avg:jobsatisfaction:qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0w0rqur14j56ew119br5118rt7ex].[avg:jobsatisfaction:qk]</rows>
+        <cols>[federated.0w0rqur14j56ew119br5118rt7ex].[none:jobrole:nk]</cols>
+      </table>
+      <simple-id uuid='{D4520F03-DF39-46DB-B796-5DABB40E381E}' />
+    </worksheet>
+    <worksheet name='11-Overall employee attrition rate'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#e15759' fontname='Times New Roman'>11-Overall employee attrition rate</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='http://localhost:9100/workbooks/HRPROJECT20251/11-Overallemployeeattritionrate?rev=' id='113288431' path='/workbooks/HRPROJECT20251' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cleaned_hr_dataset' name='federated.0w0rqur14j56ew119br5118rt7ex' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w0rqur14j56ew119br5118rt7ex'>
+            <column caption='Attrition' datatype='string' name='[attrition]' role='dimension' type='nominal' />
+            <column-instance column='[employeeid]' derivation='Count' name='[cnt:employeeid:qk]' pivot='key' type='quantitative' />
+            <column caption='Department' datatype='string' name='[department]' role='dimension' type='nominal' />
+            <column caption='Employeeid' datatype='string' name='[employeeid]' role='dimension' type='nominal' />
+            <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal' />
+            <column caption='Jobrole' datatype='string' name='[jobrole]' role='dimension' type='nominal' />
+            <column-instance column='[attrition]' derivation='None' name='[none:attrition:nk]' pivot='key' type='nominal' />
+            <column-instance column='[department]' derivation='None' name='[none:department:nk]' pivot='key' type='nominal' />
+            <column-instance column='[gender]' derivation='None' name='[none:gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[jobrole]' derivation='None' name='[none:jobrole:nk]' pivot='key' type='nominal' />
+            <column-instance column='[employeeid]' derivation='Count' name='[pcto:cnt:employeeid:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0w0rqur14j56ew119br5118rt7ex].[none:department:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:department:nk]' member='&quot;Human Resources&quot;' />
+              <groupfilter function='member' level='[none:department:nk]' member='&quot;Sales&quot;' />
+              <groupfilter function='member' level='[none:department:nk]' member='&quot;Technology&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0w0rqur14j56ew119br5118rt7ex].[none:gender:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:gender:nk]' member='&quot;Female&quot;' />
+              <groupfilter function='member' level='[none:gender:nk]' member='&quot;Male&quot;' />
+              <groupfilter function='member' level='[none:gender:nk]' member='&quot;Non-Binary&quot;' />
+              <groupfilter function='member' level='[none:gender:nk]' member='&quot;Prefer Not To Say&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0w0rqur14j56ew119br5118rt7ex].[none:jobrole:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;Analytics Manager&quot;' />
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;Data Scientist&quot;' />
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;Engineering Manager&quot;' />
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;HR Business Partner&quot;' />
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;HR Executive&quot;' />
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;HR Manager&quot;' />
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;Machine Learning Engineer&quot;' />
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;Manager&quot;' />
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;Recruiter&quot;' />
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;Sales Executive&quot;' />
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;Sales Representative&quot;' />
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;Senior Software Engineer&quot;' />
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;Software Engineer&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0w0rqur14j56ew119br5118rt7ex].[none:department:nk]</column>
+            <column>[federated.0w0rqur14j56ew119br5118rt7ex].[none:gender:nk]</column>
+            <column>[federated.0w0rqur14j56ew119br5118rt7ex].[none:jobrole:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0w0rqur14j56ew119br5118rt7ex].[none:attrition:nk]' />
+              <text column='[federated.0w0rqur14j56ew119br5118rt7ex].[cnt:employeeid:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0w0rqur14j56ew119br5118rt7ex].[pcto:cnt:employeeid:qk]</rows>
+        <cols>[federated.0w0rqur14j56ew119br5118rt7ex].[none:attrition:nk]</cols>
+      </table>
+      <simple-id uuid='{89FAC602-1D92-4060-8C07-3864AC924616}' />
+    </worksheet>
+    <worksheet name='12-Which department has the highest employee turnover?'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#e15759' fontname='Times New Roman'>12-Which department has the highest employee turnover?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='http://localhost:9100/workbooks/HRPROJECT20251/12-Whichdepartmenthasthehighestemployeeturnover?rev=' id='113288433' path='/workbooks/HRPROJECT20251' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cleaned_hr_dataset' name='federated.0w0rqur14j56ew119br5118rt7ex' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w0rqur14j56ew119br5118rt7ex'>
+            <column caption='Turnover Rate' datatype='integer' name='[Calculation_1055584714043398]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [attrition] = &apos;Yes&apos; THEN 1 ELSE 0 END' />
+            </column>
+            <column caption='Attrition' datatype='string' name='[attrition]' role='dimension' type='nominal' />
+            <column caption='Department' datatype='string' name='[department]' role='dimension' type='nominal' />
+            <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal' />
+            <column-instance column='[department]' derivation='None' name='[none:department:nk]' pivot='key' type='nominal' />
+            <column-instance column='[gender]' derivation='None' name='[none:gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1055584714043398]' derivation='Sum' name='[pcto:sum:Calculation_1055584714043398:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Calculation_1055584714043398]' derivation='Sum' name='[sum:Calculation_1055584714043398:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.0w0rqur14j56ew119br5118rt7ex].[none:department:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Technology&quot;</bucket>
+              <bucket>&quot;Sales&quot;</bucket>
+              <bucket>&quot;Human Resources&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.0w0rqur14j56ew119br5118rt7ex].[none:gender:nk]'>
+            <groupfilter function='level-members' level='[none:gender:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0w0rqur14j56ew119br5118rt7ex].[none:gender:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0w0rqur14j56ew119br5118rt7ex].[sum:Calculation_1055584714043398:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#e15759' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0w0rqur14j56ew119br5118rt7ex].[pcto:sum:Calculation_1055584714043398:qk]</rows>
+        <cols>[federated.0w0rqur14j56ew119br5118rt7ex].[none:department:nk]</cols>
+      </table>
+      <simple-id uuid='{3A5828A4-A500-4078-BAB7-28094077A6D7}' />
+    </worksheet>
+    <worksheet name='13-connection between satisfaction level and attrition'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#e15759' fontname='Times New Roman'>13-connection between satisfaction level and attrition</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='http://localhost:9100/workbooks/HRPROJECT20251/13-connectionbetweensatisfactionlevelandattrition?rev=' id='113288435' path='/workbooks/HRPROJECT20251' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cleaned_hr_dataset' name='federated.0w0rqur14j56ew119br5118rt7ex' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w0rqur14j56ew119br5118rt7ex'>
+            <column caption='Attrition' datatype='string' name='[attrition]' role='dimension' type='nominal' />
+            <column-instance column='[employeeid]' derivation='Count' name='[cnt:employeeid:qk]' pivot='key' type='quantitative' />
+            <column caption='Employeeid' datatype='string' name='[employeeid]' role='dimension' type='nominal' />
+            <column caption='Jobsatisfaction' datatype='real' name='[jobsatisfaction]' role='measure' type='quantitative' />
+            <column-instance column='[attrition]' derivation='None' name='[none:attrition:nk]' pivot='key' type='nominal' />
+            <column-instance column='[jobsatisfaction]' derivation='None' name='[none:jobsatisfaction:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[employeeid]' derivation='Count' name='[pcto:cnt:employeeid:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0w0rqur14j56ew119br5118rt7ex].[none:attrition:nk]'>
+            <groupfilter function='level-members' level='[none:attrition:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0w0rqur14j56ew119br5118rt7ex].[none:attrition:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0w0rqur14j56ew119br5118rt7ex].[pcto:cnt:employeeid:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#e15759' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0w0rqur14j56ew119br5118rt7ex].[cnt:employeeid:qk]</rows>
+        <cols>[federated.0w0rqur14j56ew119br5118rt7ex].[none:jobsatisfaction:qk]</cols>
+      </table>
+      <simple-id uuid='{E7174D63-0022-4F2E-BE41-CA137AE2ED73}' />
+    </worksheet>
+    <worksheet name='14-Employees with higher education levels have lower attrition rates'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#e15759' fontname='Times New Roman'>14-Employees with higher education levels have lower attrition rates</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='http://localhost:9100/workbooks/HRPROJECT20251/14-Employeeswithhighereducationlevelshavelowerattritionrates?rev=' id='113288438' path='/workbooks/HRPROJECT20251' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cleaned_hr_dataset' name='federated.0w0rqur14j56ew119br5118rt7ex' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w0rqur14j56ew119br5118rt7ex'>
+            <column caption='Attrition Indicator' datatype='integer' name='[Calculation_1055584718864392]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [attrition] = &apos;Yes&apos; THEN 1 ELSE 0 END' />
+            </column>
+            <column caption='Attrition' datatype='string' name='[attrition]' role='dimension' type='nominal' />
+            <column caption='Educationlevel' datatype='string' name='[educationlevel]' role='dimension' type='nominal' />
+            <column-instance column='[attrition]' derivation='None' name='[none:attrition:nk]' pivot='key' type='nominal' />
+            <column-instance column='[educationlevel]' derivation='None' name='[none:educationlevel:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1055584718864392]' derivation='Sum' name='[pcto:sum:Calculation_1055584718864392:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Calculation_1055584718864392]' derivation='Sum' name='[sum:Calculation_1055584718864392:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.0w0rqur14j56ew119br5118rt7ex].[none:educationlevel:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Bachelors&quot;</bucket>
+              <bucket>&quot;Masters&quot;</bucket>
+              <bucket>&quot;High School&quot;</bucket>
+              <bucket>&quot;No Formal Qualifications&quot;</bucket>
+              <bucket>&quot;Doctorate&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0w0rqur14j56ew119br5118rt7ex].[sum:Calculation_1055584718864392:qk]' value='p0%' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.0w0rqur14j56ew119br5118rt7ex].[sum:Calculation_1055584718864392:qk]' value='p0%' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0w0rqur14j56ew119br5118rt7ex].[none:attrition:nk]' />
+              <text column='[federated.0w0rqur14j56ew119br5118rt7ex].[sum:Calculation_1055584718864392:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0w0rqur14j56ew119br5118rt7ex].[pcto:sum:Calculation_1055584718864392:qk]</rows>
+        <cols>[federated.0w0rqur14j56ew119br5118rt7ex].[none:educationlevel:nk]</cols>
+      </table>
+      <simple-id uuid='{0B793ACA-6267-4F92-91E4-2D2B7E02BD5E}' />
+    </worksheet>
+    <worksheet name='15-How does tenure impact attrition'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#e15759'>15-How does tenure impact attrition </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='http://localhost:9100/workbooks/HRPROJECT20251/15-Howdoestenureimpactattrition?rev=' id='113288439' path='/workbooks/HRPROJECT20251' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cleaned_hr_dataset' name='federated.0w0rqur14j56ew119br5118rt7ex' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w0rqur14j56ew119br5118rt7ex'>
+            <column caption='Attrition Indicator 1 ' datatype='integer' name='[Calculation_1055585742368804]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [attrition] = &apos;Yes&apos; THEN 1 ELSE 0 END' />
+            </column>
+            <column caption='Attrition' datatype='string' name='[attrition]' role='dimension' type='nominal' />
+            <column-instance column='[employeeid]' derivation='Count' name='[cnt:employeeid:qk]' pivot='key' type='quantitative' />
+            <column caption='Employeeid' datatype='string' name='[employeeid]' role='dimension' type='nominal' />
+            <column-instance column='[attrition]' derivation='None' name='[none:attrition:nk]' pivot='key' type='nominal' />
+            <column-instance column='[yearsatcompany]' derivation='None' name='[none:yearsatcompany:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1055585742368804]' derivation='Avg' name='[pcto:avg:Calculation_1055585742368804:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Calculation_1055585742368804]' derivation='Sum' name='[pcto:sum:Calculation_1055585742368804:qk:2]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Columns' type='PctTotal' />
+            </column-instance>
+            <column caption='Yearsatcompany' datatype='integer' name='[yearsatcompany]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0w0rqur14j56ew119br5118rt7ex].[none:attrition:nk]'>
+            <groupfilter function='member' level='[none:attrition:nk]' member='&quot;Yes&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0w0rqur14j56ew119br5118rt7ex].[none:attrition:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0w0rqur14j56ew119br5118rt7ex].[none:attrition:nk]' />
+              <text column='[federated.0w0rqur14j56ew119br5118rt7ex].[pcto:sum:Calculation_1055585742368804:qk:2]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0w0rqur14j56ew119br5118rt7ex].[cnt:employeeid:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0w0rqur14j56ew119br5118rt7ex].[none:attrition:nk]' />
+              <text column='[federated.0w0rqur14j56ew119br5118rt7ex].[pcto:sum:Calculation_1055585742368804:qk:2]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0w0rqur14j56ew119br5118rt7ex].[pcto:avg:Calculation_1055585742368804:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0w0rqur14j56ew119br5118rt7ex].[none:attrition:nk]' />
+              <text column='[federated.0w0rqur14j56ew119br5118rt7ex].[pcto:sum:Calculation_1055585742368804:qk:2]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0w0rqur14j56ew119br5118rt7ex].[none:yearsatcompany:qk]</rows>
+        <cols>([federated.0w0rqur14j56ew119br5118rt7ex].[cnt:employeeid:qk] + [federated.0w0rqur14j56ew119br5118rt7ex].[pcto:avg:Calculation_1055585742368804:qk])</cols>
+      </table>
+      <simple-id uuid='{AB0E4EEF-8170-4AD8-9492-DB33E1BA0832}' />
+    </worksheet>
+    <worksheet name='16-How long does it take on average for employees to receive a promotion'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#e15759' fontname='Times New Roman'>16-How long does it take on average for employees to receive a promotion</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='http://localhost:9100/workbooks/HRPROJECT20251/16-Howlongdoesittakeonaverageforemployeestoreceiveapromotion?rev=' id='113288441' path='/workbooks/HRPROJECT20251' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cleaned_hr_dataset' name='federated.0w0rqur14j56ew119br5118rt7ex' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w0rqur14j56ew119br5118rt7ex'>
+            <column caption='Promotion Indicator' datatype='integer' name='[Calculation_1055585749430312]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [yearssincelastpromotion] &gt; 0 THEN 1 ELSE 0 END' />
+            </column>
+            <column-instance column='[employeeid]' derivation='Count' name='[cnt:employeeid:qk]' pivot='key' type='quantitative' />
+            <column caption='Employeeid' datatype='string' name='[employeeid]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1055585749430312]' derivation='None' name='[none:Calculation_1055585749430312:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[yearssincelastpromotion]' derivation='None' name='[none:yearssincelastpromotion:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[yearssincelastpromotion]' derivation='Sum' name='[sum:yearssincelastpromotion:qk]' pivot='key' type='quantitative' />
+            <column caption='Yearssincelastpromotion' datatype='integer' name='[yearssincelastpromotion]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0w0rqur14j56ew119br5118rt7ex].[sum:yearssincelastpromotion:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#e15759' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0w0rqur14j56ew119br5118rt7ex].[none:yearssincelastpromotion:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0w0rqur14j56ew119br5118rt7ex].[sum:yearssincelastpromotion:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#e15759' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='6' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0w0rqur14j56ew119br5118rt7ex].[none:Calculation_1055585749430312:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0w0rqur14j56ew119br5118rt7ex].[sum:yearssincelastpromotion:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#e15759' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0w0rqur14j56ew119br5118rt7ex].[none:yearssincelastpromotion:qk] + [federated.0w0rqur14j56ew119br5118rt7ex].[none:Calculation_1055585749430312:qk])</rows>
+        <cols>([federated.0w0rqur14j56ew119br5118rt7ex].[cnt:employeeid:qk] + [federated.0w0rqur14j56ew119br5118rt7ex].[none:yearssincelastpromotion:qk])</cols>
+      </table>
+      <simple-id uuid='{1F728916-D36E-45A3-9AC3-E5C708150D64}' />
+    </worksheet>
+    <worksheet name='17-Is there a correlation between education level and promotion frequency?'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#e15759' fontname='Times New Roman'>17-Is there a correlation between education level and promotion frequency?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='http://localhost:9100/workbooks/HRPROJECT20251/17-Isthereacorrelationbetweeneducationlevelandpromotionfrequency?rev=' id='113288443' path='/workbooks/HRPROJECT20251' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cleaned_hr_dataset' name='federated.0w0rqur14j56ew119br5118rt7ex' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w0rqur14j56ew119br5118rt7ex'>
+            <column caption='Promotion Indicator' datatype='integer' name='[Calculation_1055585749430312]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [yearssincelastpromotion] &gt; 0 THEN 1 ELSE 0 END' />
+            </column>
+            <column caption='Department' datatype='string' name='[department]' role='dimension' type='nominal' />
+            <column caption='Educationlevel' datatype='string' name='[educationlevel]' role='dimension' type='nominal' />
+            <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal' />
+            <column-instance column='[department]' derivation='None' name='[none:department:nk]' pivot='key' type='nominal' />
+            <column-instance column='[educationlevel]' derivation='None' name='[none:educationlevel:nk]' pivot='key' type='nominal' />
+            <column-instance column='[gender]' derivation='None' name='[none:gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1055585749430312]' derivation='Sum' name='[pcto:sum:Calculation_1055585749430312:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Calculation_1055585749430312]' derivation='Sum' name='[sum:Calculation_1055585749430312:qk]' pivot='key' type='quantitative' />
+            <column caption='Yearssincelastpromotion' datatype='integer' name='[yearssincelastpromotion]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0w0rqur14j56ew119br5118rt7ex].[none:department:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:department:nk]' member='&quot;Human Resources&quot;' />
+              <groupfilter function='member' level='[none:department:nk]' member='&quot;Sales&quot;' />
+              <groupfilter function='member' level='[none:department:nk]' member='&quot;Technology&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0w0rqur14j56ew119br5118rt7ex].[none:gender:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:gender:nk]' member='&quot;Female&quot;' />
+              <groupfilter function='member' level='[none:gender:nk]' member='&quot;Male&quot;' />
+              <groupfilter function='member' level='[none:gender:nk]' member='&quot;Non-Binary&quot;' />
+              <groupfilter function='member' level='[none:gender:nk]' member='&quot;Prefer Not To Say&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0w0rqur14j56ew119br5118rt7ex].[none:gender:nk]</column>
+            <column>[federated.0w0rqur14j56ew119br5118rt7ex].[none:department:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0w0rqur14j56ew119br5118rt7ex].[none:educationlevel:nk]' />
+              <wedge-size column='[federated.0w0rqur14j56ew119br5118rt7ex].[sum:Calculation_1055585749430312:qk]' />
+              <size column='[federated.0w0rqur14j56ew119br5118rt7ex].[sum:Calculation_1055585749430312:qk]' />
+              <text column='[federated.0w0rqur14j56ew119br5118rt7ex].[pcto:sum:Calculation_1055585749430312:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.8059999942779541' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{C99EA71E-1EFB-4AE7-8B84-A4A483D893E3}' />
+    </worksheet>
+    <worksheet name='18-Which departments promote employees the fastest and the slowest?'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#e15759' fontname='Times New Roman'>18-Which departments promote employees the fastest and the slowest?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='http://localhost:9100/workbooks/HRPROJECT20251/18-Whichdepartmentspromoteemployeesthefastestandtheslowest?rev=' id='113288444' path='/workbooks/HRPROJECT20251' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cleaned_hr_dataset' name='federated.0w0rqur14j56ew119br5118rt7ex' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w0rqur14j56ew119br5118rt7ex'>
+            <column-instance column='[yearssincelastpromotion]' derivation='Avg' name='[avg:yearssincelastpromotion:qk]' pivot='key' type='quantitative' />
+            <column caption='Department' datatype='string' name='[department]' role='dimension' type='nominal' />
+            <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal' />
+            <column caption='Jobrole' datatype='string' name='[jobrole]' role='dimension' type='nominal' />
+            <column-instance column='[department]' derivation='None' name='[none:department:nk]' pivot='key' type='nominal' />
+            <column-instance column='[gender]' derivation='None' name='[none:gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[jobrole]' derivation='None' name='[none:jobrole:nk]' pivot='key' type='nominal' />
+            <column-instance column='[yearssincelastpromotion]' derivation='None' name='[none:yearssincelastpromotion:qk]' pivot='key' type='quantitative' />
+            <column caption='Yearssincelastpromotion' datatype='integer' name='[yearssincelastpromotion]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0w0rqur14j56ew119br5118rt7ex].[none:gender:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:gender:nk]' member='&quot;Female&quot;' />
+              <groupfilter function='member' level='[none:gender:nk]' member='&quot;Male&quot;' />
+              <groupfilter function='member' level='[none:gender:nk]' member='&quot;Non-Binary&quot;' />
+              <groupfilter function='member' level='[none:gender:nk]' member='&quot;Prefer Not To Say&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0w0rqur14j56ew119br5118rt7ex].[none:jobrole:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;Analytics Manager&quot;' />
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;Data Scientist&quot;' />
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;Engineering Manager&quot;' />
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;HR Business Partner&quot;' />
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;HR Executive&quot;' />
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;HR Manager&quot;' />
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;Machine Learning Engineer&quot;' />
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;Manager&quot;' />
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;Recruiter&quot;' />
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;Sales Executive&quot;' />
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;Sales Representative&quot;' />
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;Senior Software Engineer&quot;' />
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;Software Engineer&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.0w0rqur14j56ew119br5118rt7ex].[none:yearssincelastpromotion:qk]' included-values='in-range'>
+            <min>0</min>
+            <max>10</max>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0w0rqur14j56ew119br5118rt7ex].[none:department:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0w0rqur14j56ew119br5118rt7ex].[avg:yearssincelastpromotion:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0w0rqur14j56ew119br5118rt7ex].[none:yearssincelastpromotion:qk]</column>
+            <column>[federated.0w0rqur14j56ew119br5118rt7ex].[none:gender:nk]</column>
+            <column>[federated.0w0rqur14j56ew119br5118rt7ex].[none:jobrole:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0w0rqur14j56ew119br5118rt7ex].[none:department:nk]' />
+              <text column='[federated.0w0rqur14j56ew119br5118rt7ex].[avg:yearssincelastpromotion:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0w0rqur14j56ew119br5118rt7ex].[avg:yearssincelastpromotion:qk]</rows>
+        <cols>[federated.0w0rqur14j56ew119br5118rt7ex].[none:department:nk]</cols>
+      </table>
+      <simple-id uuid='{56484761-B218-49F7-B593-280E9C7CC47A}' />
+    </worksheet>
+    <worksheet name='19-What percentage of satisfied employees receive promotions?'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#e15759' fontname='Times New Roman'>19-What percentage of satisfied employees receive promotions?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='http://localhost:9100/workbooks/HRPROJECT20251/19-Whatpercentageofsatisfiedemployeesreceivepromotions?rev=' id='113288446' path='/workbooks/HRPROJECT20251' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cleaned_hr_dataset' name='federated.0w0rqur14j56ew119br5118rt7ex' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w0rqur14j56ew119br5118rt7ex'>
+            <column caption='Promotion Indicator' datatype='integer' name='[Calculation_1055585749430312]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [yearssincelastpromotion] &gt; 0 THEN 1 ELSE 0 END' />
+            </column>
+            <column caption='Satisfied Employee' datatype='string' name='[Calculation_1055585763799083]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [jobsatisfaction] &gt;= 3 THEN &apos;Satisfied&apos; ELSE &apos;Not Satisfied&apos; END' />
+            </column>
+            <column caption='Department' datatype='string' name='[department]' role='dimension' type='nominal' />
+            <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal' />
+            <column caption='Jobrole' datatype='string' name='[jobrole]' role='dimension' type='nominal' />
+            <column caption='Jobsatisfaction' datatype='real' name='[jobsatisfaction]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1055585763799083]' derivation='None' name='[none:Calculation_1055585763799083:nk]' pivot='key' type='nominal' />
+            <column-instance column='[department]' derivation='None' name='[none:department:nk]' pivot='key' type='nominal' />
+            <column-instance column='[gender]' derivation='None' name='[none:gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[jobrole]' derivation='None' name='[none:jobrole:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1055585749430312]' derivation='Sum' name='[pcto:sum:Calculation_1055585749430312:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Calculation_1055585749430312]' derivation='Sum' name='[sum:Calculation_1055585749430312:qk]' pivot='key' type='quantitative' />
+            <column caption='Yearssincelastpromotion' datatype='integer' name='[yearssincelastpromotion]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0w0rqur14j56ew119br5118rt7ex].[none:department:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:department:nk]' member='&quot;Human Resources&quot;' />
+              <groupfilter function='member' level='[none:department:nk]' member='&quot;Sales&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0w0rqur14j56ew119br5118rt7ex].[none:gender:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:gender:nk]' member='&quot;Female&quot;' />
+              <groupfilter function='member' level='[none:gender:nk]' member='&quot;Male&quot;' />
+              <groupfilter function='member' level='[none:gender:nk]' member='&quot;Non-Binary&quot;' />
+              <groupfilter function='member' level='[none:gender:nk]' member='&quot;Prefer Not To Say&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0w0rqur14j56ew119br5118rt7ex].[none:jobrole:nk]'>
+            <groupfilter function='level-members' level='[none:jobrole:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0w0rqur14j56ew119br5118rt7ex].[none:department:nk]</column>
+            <column>[federated.0w0rqur14j56ew119br5118rt7ex].[none:gender:nk]</column>
+            <column>[federated.0w0rqur14j56ew119br5118rt7ex].[none:jobrole:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0w0rqur14j56ew119br5118rt7ex].[pcto:sum:Calculation_1055585749430312:qk]' value='p0%' />
+            <format attr='text-format' field='[federated.0w0rqur14j56ew119br5118rt7ex].[sum:Calculation_1055585749430312:qk]' value='p0%' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.0w0rqur14j56ew119br5118rt7ex].[pcto:sum:Calculation_1055585749430312:qk]' value='p0%' />
+            <format attr='text-format' field='[federated.0w0rqur14j56ew119br5118rt7ex].[sum:Calculation_1055585749430312:qk]' value='p0%' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0w0rqur14j56ew119br5118rt7ex].[none:Calculation_1055585763799083:nk]' />
+              <wedge-size column='[federated.0w0rqur14j56ew119br5118rt7ex].[pcto:sum:Calculation_1055585749430312:qk]' />
+              <size column='[federated.0w0rqur14j56ew119br5118rt7ex].[pcto:sum:Calculation_1055585749430312:qk]' />
+              <text column='[federated.0w0rqur14j56ew119br5118rt7ex].[sum:Calculation_1055585749430312:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{2890F18A-1879-451F-954D-9465D1034B2D}' />
+    </worksheet>
+    <worksheet name='2-Average Salary vary by Education level'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#e15759' fontname='Times New Roman'>2-Average Salary vary by Education level</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='http://localhost:9100/workbooks/HRPROJECT20251/2-AverageSalaryvarybyEducationlevel?rev=' id='113288421' path='/workbooks/HRPROJECT20251' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cleaned_hr_dataset' name='federated.0w0rqur14j56ew119br5118rt7ex' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w0rqur14j56ew119br5118rt7ex'>
+            <column-instance column='[salary]' derivation='Avg' name='[avg:salary:qk]' pivot='key' type='quantitative' />
+            <column caption='Educationlevel' datatype='string' name='[educationlevel]' role='dimension' type='nominal' />
+            <column-instance column='[educationlevel]' derivation='None' name='[none:educationlevel:nk]' pivot='key' type='nominal' />
+            <column caption='Salary' datatype='integer' name='[salary]' role='measure' type='quantitative' />
+            <column-instance column='[salary]' derivation='Sum' name='[sum:salary:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.0w0rqur14j56ew119br5118rt7ex].[none:educationlevel:nk]' direction='DESC' using='[federated.0w0rqur14j56ew119br5118rt7ex].[avg:salary:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0w0rqur14j56ew119br5118rt7ex].[none:educationlevel:nk]' />
+              <text column='[federated.0w0rqur14j56ew119br5118rt7ex].[sum:salary:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0w0rqur14j56ew119br5118rt7ex].[avg:salary:qk]</rows>
+        <cols>[federated.0w0rqur14j56ew119br5118rt7ex].[none:educationlevel:nk]</cols>
+      </table>
+      <simple-id uuid='{CE1A6320-8B6E-484D-8DE9-90433940684F}' />
+    </worksheet>
+    <worksheet name='20-Dose gender impact promotion opportunities?'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#e15759' fontname='Times New Roman'>20-Dose gender impact promotion opportunities?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='http://localhost:9100/workbooks/HRPROJECT20251/20-Dosegenderimpactpromotionopportunities?rev=' id='113288447' path='/workbooks/HRPROJECT20251' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cleaned_hr_dataset' name='federated.0w0rqur14j56ew119br5118rt7ex' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w0rqur14j56ew119br5118rt7ex'>
+            <column caption='Promotion Indicator' datatype='integer' name='[Calculation_1055585749430312]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [yearssincelastpromotion] &gt; 0 THEN 1 ELSE 0 END' />
+            </column>
+            <column caption='Department' datatype='string' name='[department]' role='dimension' type='nominal' />
+            <column caption='Educationlevel' datatype='string' name='[educationlevel]' role='dimension' type='nominal' />
+            <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal' />
+            <column caption='Jobrole' datatype='string' name='[jobrole]' role='dimension' type='nominal' />
+            <column-instance column='[department]' derivation='None' name='[none:department:nk]' pivot='key' type='nominal' />
+            <column-instance column='[educationlevel]' derivation='None' name='[none:educationlevel:nk]' pivot='key' type='nominal' />
+            <column-instance column='[gender]' derivation='None' name='[none:gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[jobrole]' derivation='None' name='[none:jobrole:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1055585749430312]' derivation='Sum' name='[pcto:sum:Calculation_1055585749430312:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column caption='Yearssincelastpromotion' datatype='integer' name='[yearssincelastpromotion]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0w0rqur14j56ew119br5118rt7ex].[none:department:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:department:nk]' member='&quot;Human Resources&quot;' />
+              <groupfilter function='member' level='[none:department:nk]' member='&quot;Sales&quot;' />
+              <groupfilter function='member' level='[none:department:nk]' member='&quot;Technology&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0w0rqur14j56ew119br5118rt7ex].[none:educationlevel:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:educationlevel:nk]' member='&quot;Bachelors&quot;' />
+              <groupfilter function='member' level='[none:educationlevel:nk]' member='&quot;Doctorate&quot;' />
+              <groupfilter function='member' level='[none:educationlevel:nk]' member='&quot;High School&quot;' />
+              <groupfilter function='member' level='[none:educationlevel:nk]' member='&quot;Masters&quot;' />
+              <groupfilter function='member' level='[none:educationlevel:nk]' member='&quot;No Formal Qualifications&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0w0rqur14j56ew119br5118rt7ex].[none:jobrole:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;Analytics Manager&quot;' />
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;Data Scientist&quot;' />
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;Engineering Manager&quot;' />
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;HR Business Partner&quot;' />
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;HR Executive&quot;' />
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;HR Manager&quot;' />
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;Machine Learning Engineer&quot;' />
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;Manager&quot;' />
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;Recruiter&quot;' />
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;Sales Executive&quot;' />
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;Sales Representative&quot;' />
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;Senior Software Engineer&quot;' />
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;Software Engineer&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0w0rqur14j56ew119br5118rt7ex].[none:department:nk]</column>
+            <column>[federated.0w0rqur14j56ew119br5118rt7ex].[none:educationlevel:nk]</column>
+            <column>[federated.0w0rqur14j56ew119br5118rt7ex].[none:jobrole:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0w0rqur14j56ew119br5118rt7ex].[none:gender:nk]' />
+              <wedge-size column='[federated.0w0rqur14j56ew119br5118rt7ex].[pcto:sum:Calculation_1055585749430312:qk]' />
+              <size column='[federated.0w0rqur14j56ew119br5118rt7ex].[pcto:sum:Calculation_1055585749430312:qk]' />
+              <text column='[federated.0w0rqur14j56ew119br5118rt7ex].[pcto:sum:Calculation_1055585749430312:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{41C61A5A-35D2-468A-8B95-ECC79CA4F93D}' />
+    </worksheet>
+    <worksheet name='3-Is there a gender pay gap across Departments'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#e15759' fontname='Times New Roman'>3-Is there a gender pay gap across Departments</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='http://localhost:9100/workbooks/HRPROJECT20251/3-IsthereagenderpaygapacrossDepartments?rev=' id='113288422' path='/workbooks/HRPROJECT20251' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cleaned_hr_dataset' name='federated.0w0rqur14j56ew119br5118rt7ex' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w0rqur14j56ew119br5118rt7ex'>
+            <column-instance column='[salary]' derivation='Avg' name='[avg:salary:qk]' pivot='key' type='quantitative' />
+            <column caption='Department' datatype='string' name='[department]' role='dimension' type='nominal' />
+            <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal' />
+            <column-instance column='[department]' derivation='None' name='[none:department:nk]' pivot='key' type='nominal' />
+            <column-instance column='[gender]' derivation='None' name='[none:gender:nk]' pivot='key' type='nominal' />
+            <column caption='Salary' datatype='integer' name='[salary]' role='measure' type='quantitative' />
+            <column-instance column='[salary]' derivation='Sum' name='[sum:salary:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0w0rqur14j56ew119br5118rt7ex].[none:department:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:department:nk]' member='&quot;Human Resources&quot;' />
+              <groupfilter function='member' level='[none:department:nk]' member='&quot;Sales&quot;' />
+              <groupfilter function='member' level='[none:department:nk]' member='&quot;Technology&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0w0rqur14j56ew119br5118rt7ex].[none:gender:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:gender:nk]' member='&quot;Female&quot;' />
+              <groupfilter function='member' level='[none:gender:nk]' member='&quot;Male&quot;' />
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0w0rqur14j56ew119br5118rt7ex].[none:gender:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0w0rqur14j56ew119br5118rt7ex].[avg:salary:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0w0rqur14j56ew119br5118rt7ex].[none:department:nk]</column>
+            <column>[federated.0w0rqur14j56ew119br5118rt7ex].[none:gender:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0w0rqur14j56ew119br5118rt7ex].[sum:salary:qk]' value='C1033%' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.0w0rqur14j56ew119br5118rt7ex].[sum:salary:qk]' value='C1033%' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0w0rqur14j56ew119br5118rt7ex].[none:gender:nk]' />
+              <text column='[federated.0w0rqur14j56ew119br5118rt7ex].[sum:salary:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0w0rqur14j56ew119br5118rt7ex].[avg:salary:qk]</rows>
+        <cols>([federated.0w0rqur14j56ew119br5118rt7ex].[none:department:nk] / [federated.0w0rqur14j56ew119br5118rt7ex].[none:gender:nk])</cols>
+      </table>
+      <simple-id uuid='{20F8BC80-B0E8-4822-9FAA-C88A174B80CE}' />
+    </worksheet>
+    <worksheet name='4-What is the salary distribution based on years of experience?'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#e15759' fontname='Times New Roman'>4-What is the salary distribution based on years of experience?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='http://localhost:9100/workbooks/HRPROJECT20251/4-Whatisthesalarydistributionbasedonyearsofexperience?rev=' id='113288423' path='/workbooks/HRPROJECT20251' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cleaned_hr_dataset' name='federated.0w0rqur14j56ew119br5118rt7ex' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w0rqur14j56ew119br5118rt7ex'>
+            <column-instance column='[salary]' derivation='Avg' name='[avg:salary:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[yearsatcompany]' derivation='None' name='[none:yearsatcompany:qk]' pivot='key' type='quantitative' />
+            <column caption='Salary' datatype='integer' name='[salary]' role='measure' type='quantitative' />
+            <column-instance column='[salary]' derivation='Sum' name='[sum:salary:qk]' pivot='key' type='quantitative' />
+            <column caption='Yearsatcompany' datatype='integer' name='[yearsatcompany]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0w0rqur14j56ew119br5118rt7ex].[sum:salary:qk]' value='c!en_US!&quot;$&quot;#,##0;-&quot;$&quot;#,##0' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.0w0rqur14j56ew119br5118rt7ex].[sum:salary:qk]' value='c!en_US!&quot;$&quot;#,##0;-&quot;$&quot;#,##0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0w0rqur14j56ew119br5118rt7ex].[sum:salary:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#e15759' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0w0rqur14j56ew119br5118rt7ex].[avg:salary:qk]</rows>
+        <cols>[federated.0w0rqur14j56ew119br5118rt7ex].[none:yearsatcompany:qk]</cols>
+      </table>
+      <simple-id uuid='{00CDB74B-2584-48B8-B805-DEC029CFF96D}' />
+    </worksheet>
+    <worksheet name='5-Highest and Lowest average salaries'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#e15759' fontname='Times New Roman'>5-Highest and Lowest average salaries</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='http://localhost:9100/workbooks/HRPROJECT20251/5-HighestandLowestaveragesalaries?rev=' id='113288424' path='/workbooks/HRPROJECT20251' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cleaned_hr_dataset' name='federated.0w0rqur14j56ew119br5118rt7ex' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w0rqur14j56ew119br5118rt7ex'>
+            <column-instance column='[salary]' derivation='Avg' name='[avg:salary:qk]' pivot='key' type='quantitative' />
+            <column caption='Department' datatype='string' name='[department]' role='dimension' type='nominal' />
+            <column-instance column='[department]' derivation='None' name='[none:department:nk]' pivot='key' type='nominal' />
+            <column caption='Salary' datatype='integer' name='[salary]' role='measure' type='quantitative' />
+            <column-instance column='[salary]' derivation='Sum' name='[sum:salary:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0w0rqur14j56ew119br5118rt7ex].[none:department:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0w0rqur14j56ew119br5118rt7ex].[avg:salary:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0w0rqur14j56ew119br5118rt7ex].[sum:salary:qk]' value='c!en_US!&quot;$&quot;#,##0;-&quot;$&quot;#,##0' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.0w0rqur14j56ew119br5118rt7ex].[sum:salary:qk]' value='c!en_US!&quot;$&quot;#,##0;-&quot;$&quot;#,##0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0w0rqur14j56ew119br5118rt7ex].[none:department:nk]' />
+              <text column='[federated.0w0rqur14j56ew119br5118rt7ex].[sum:salary:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#b07aa1' />
+                <format attr='has-stroke' value='true' />
+                <format attr='stroke-color' value='#c290b4' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0w0rqur14j56ew119br5118rt7ex].[avg:salary:qk]</rows>
+        <cols>[federated.0w0rqur14j56ew119br5118rt7ex].[none:department:nk]</cols>
+      </table>
+      <simple-id uuid='{607A48F7-9AFD-4113-8A82-F936B81D3808}' />
+    </worksheet>
+    <worksheet name='6-Average satisfaction level across different job roles'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#e15759' fontname='Times New Roman'>6-Average satisfaction level across different job roles</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='http://localhost:9100/workbooks/HRPROJECT20251/6-Averagesatisfactionlevelacrossdifferentjobroles?rev=' id='113288425' path='/workbooks/HRPROJECT20251' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cleaned_hr_dataset' name='federated.0w0rqur14j56ew119br5118rt7ex' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w0rqur14j56ew119br5118rt7ex'>
+            <column-instance column='[jobsatisfaction]' derivation='Avg' name='[avg:jobsatisfaction:qk]' pivot='key' type='quantitative' />
+            <column caption='Jobrole' datatype='string' name='[jobrole]' role='dimension' type='nominal' />
+            <column caption='Jobsatisfaction' datatype='real' name='[jobsatisfaction]' role='measure' type='quantitative' />
+            <column-instance column='[jobrole]' derivation='None' name='[none:jobrole:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0w0rqur14j56ew119br5118rt7ex].[none:jobrole:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0w0rqur14j56ew119br5118rt7ex].[avg:jobsatisfaction:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0w0rqur14j56ew119br5118rt7ex].[none:jobrole:nk]' />
+              <text column='[federated.0w0rqur14j56ew119br5118rt7ex].[avg:jobsatisfaction:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0w0rqur14j56ew119br5118rt7ex].[avg:jobsatisfaction:qk]</rows>
+        <cols>[federated.0w0rqur14j56ew119br5118rt7ex].[none:jobrole:nk]</cols>
+      </table>
+      <simple-id uuid='{70A2CF6A-9901-4857-B595-391FD2C3F47F}' />
+    </worksheet>
+    <worksheet name='7-Relationship between satisfaction level and salary'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#e15759' fontname='Times New Roman'>7-Relationship between satisfaction level and salary</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='http://localhost:9100/workbooks/HRPROJECT20251/7-Relationshipbetweensatisfactionlevelandsalary?rev=' id='113288426' path='/workbooks/HRPROJECT20251' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cleaned_hr_dataset' name='federated.0w0rqur14j56ew119br5118rt7ex' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w0rqur14j56ew119br5118rt7ex'>
+            <column caption='Attrition' datatype='string' name='[attrition]' role='dimension' type='nominal' />
+            <column-instance column='[salary]' derivation='Avg' name='[avg:salary:qk]' pivot='key' type='quantitative' />
+            <column caption='Department' datatype='string' name='[department]' role='dimension' type='nominal' />
+            <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal' />
+            <column caption='Jobrole' datatype='string' name='[jobrole]' role='dimension' type='nominal' />
+            <column caption='Jobsatisfaction' datatype='real' name='[jobsatisfaction]' role='measure' type='quantitative' />
+            <column-instance column='[attrition]' derivation='None' name='[none:attrition:nk]' pivot='key' type='nominal' />
+            <column-instance column='[department]' derivation='None' name='[none:department:nk]' pivot='key' type='nominal' />
+            <column-instance column='[gender]' derivation='None' name='[none:gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[jobrole]' derivation='None' name='[none:jobrole:nk]' pivot='key' type='nominal' />
+            <column-instance column='[jobsatisfaction]' derivation='None' name='[none:jobsatisfaction:qk]' pivot='key' type='quantitative' />
+            <column caption='Salary' datatype='integer' name='[salary]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0w0rqur14j56ew119br5118rt7ex].[none:department:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:department:nk]' member='&quot;Sales&quot;' />
+              <groupfilter function='member' level='[none:department:nk]' member='&quot;Technology&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0w0rqur14j56ew119br5118rt7ex].[none:gender:nk]'>
+            <groupfilter function='level-members' level='[none:gender:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0w0rqur14j56ew119br5118rt7ex].[none:jobrole:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;Analytics Manager&quot;' />
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;Data Scientist&quot;' />
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;Engineering Manager&quot;' />
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;HR Business Partner&quot;' />
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;HR Executive&quot;' />
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;HR Manager&quot;' />
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;Machine Learning Engineer&quot;' />
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;Manager&quot;' />
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;Recruiter&quot;' />
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;Sales Executive&quot;' />
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;Sales Representative&quot;' />
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;Senior Software Engineer&quot;' />
+              <groupfilter function='member' level='[none:jobrole:nk]' member='&quot;Software Engineer&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0w0rqur14j56ew119br5118rt7ex].[none:department:nk]</column>
+            <column>[federated.0w0rqur14j56ew119br5118rt7ex].[none:gender:nk]</column>
+            <column>[federated.0w0rqur14j56ew119br5118rt7ex].[none:jobrole:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0w0rqur14j56ew119br5118rt7ex].[avg:salary:qk]' value='c!en_US!&quot;$&quot;#,##0;-&quot;$&quot;#,##0' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.0w0rqur14j56ew119br5118rt7ex].[avg:salary:qk]' value='c!en_US!&quot;$&quot;#,##0;-&quot;$&quot;#,##0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0w0rqur14j56ew119br5118rt7ex].[none:attrition:nk]' />
+              <text column='[federated.0w0rqur14j56ew119br5118rt7ex].[avg:salary:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#e15759' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0w0rqur14j56ew119br5118rt7ex].[avg:salary:qk]</rows>
+        <cols>[federated.0w0rqur14j56ew119br5118rt7ex].[none:jobsatisfaction:qk]</cols>
+      </table>
+      <simple-id uuid='{E273B4CB-D2B2-4486-BD1F-846459C63138}' />
+    </worksheet>
+    <worksheet name='8-Do employees with higher education levels report higher satisfaction?'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#e15759' fontname='Times New Roman'>8-Do employees with higher education levels report higher satisfaction?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='http://localhost:9100/workbooks/HRPROJECT20251/8-Doemployeeswithhighereducationlevelsreporthighersatisfaction?rev=' id='113288427' path='/workbooks/HRPROJECT20251' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cleaned_hr_dataset' name='federated.0w0rqur14j56ew119br5118rt7ex' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w0rqur14j56ew119br5118rt7ex'>
+            <column-instance column='[jobsatisfaction]' derivation='Avg' name='[avg:jobsatisfaction:qk]' pivot='key' type='quantitative' />
+            <column caption='Educationlevel' datatype='string' name='[educationlevel]' role='dimension' type='nominal' />
+            <column caption='Jobsatisfaction' datatype='real' name='[jobsatisfaction]' role='measure' type='quantitative' />
+            <column-instance column='[educationlevel]' derivation='None' name='[none:educationlevel:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.0w0rqur14j56ew119br5118rt7ex].[none:educationlevel:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;High School&quot;</bucket>
+              <bucket>&quot;Bachelors&quot;</bucket>
+              <bucket>&quot;Masters&quot;</bucket>
+              <bucket>&quot;No Formal Qualifications&quot;</bucket>
+              <bucket>&quot;Doctorate&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0w0rqur14j56ew119br5118rt7ex].[none:educationlevel:nk]' />
+              <text column='[federated.0w0rqur14j56ew119br5118rt7ex].[avg:jobsatisfaction:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0w0rqur14j56ew119br5118rt7ex].[avg:jobsatisfaction:qk]</rows>
+        <cols>[federated.0w0rqur14j56ew119br5118rt7ex].[none:educationlevel:nk]</cols>
+      </table>
+      <simple-id uuid='{B9DDAA28-DC38-419B-B91F-49DD20FF5327}' />
+    </worksheet>
+    <worksheet name='9-Which departments have the most satisfied and least satisfied employees'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#e15759' fontname='Times New Roman'>9-Which departments have the most satisfied and least satisfied employees</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='http://localhost:9100/workbooks/HRPROJECT20251/9-Whichdepartmentshavethemostsatisfiedandleastsatisfiedemployees?rev=' id='113288428' path='/workbooks/HRPROJECT20251' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cleaned_hr_dataset' name='federated.0w0rqur14j56ew119br5118rt7ex' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w0rqur14j56ew119br5118rt7ex'>
+            <column-instance column='[jobsatisfaction]' derivation='Avg' name='[avg:jobsatisfaction:qk]' pivot='key' type='quantitative' />
+            <column caption='Department' datatype='string' name='[department]' role='dimension' type='nominal' />
+            <column caption='Jobsatisfaction' datatype='real' name='[jobsatisfaction]' role='measure' type='quantitative' />
+            <column-instance column='[department]' derivation='None' name='[none:department:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0w0rqur14j56ew119br5118rt7ex].[none:department:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0w0rqur14j56ew119br5118rt7ex].[avg:jobsatisfaction:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0w0rqur14j56ew119br5118rt7ex].[avg:jobsatisfaction:qk]' value='n#,##0.00;-#,##0.00' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.0w0rqur14j56ew119br5118rt7ex].[avg:jobsatisfaction:qk]' value='n#,##0.00;-#,##0.00' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0w0rqur14j56ew119br5118rt7ex].[none:department:nk]' />
+              <text column='[federated.0w0rqur14j56ew119br5118rt7ex].[avg:jobsatisfaction:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0w0rqur14j56ew119br5118rt7ex].[avg:jobsatisfaction:qk]</rows>
+        <cols>[federated.0w0rqur14j56ew119br5118rt7ex].[none:department:nk]</cols>
+      </table>
+      <simple-id uuid='{35593081-AD95-400C-9BC7-DF6E635FE069}' />
+    </worksheet>
+    <worksheet name='Sheet 21'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{07CD692B-6DF2-4393-BAAF-52F29FAC51DE}' />
+    </worksheet>
+    <worksheet name='Sheet 22'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{5350BC05-AD2B-493C-87A1-0F10BB9C11DA}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='37'>
+    <window class='worksheet' name='1-Employee Demographics &amp; Salary Analysis'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{F8E54365-51B7-4085-96B2-8DE99A2130E7}' />
+    </window>
+    <window class='worksheet' name='2-Average Salary vary by Education level'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0w0rqur14j56ew119br5118rt7ex].[none:educationlevel:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{06E577C5-57F5-4E03-8903-C4F13E0F4311}' />
+    </window>
+    <window class='worksheet' maximized='true' name='3-Is there a gender pay gap across Departments'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='30'>
+            <card type='columns' />
+          </strip>
+          <strip size='30'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0w0rqur14j56ew119br5118rt7ex].[none:gender:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{DEDEAA8B-4D1D-47BE-A746-9256088E7B74}' />
+    </window>
+    <window class='worksheet' name='4-What is the salary distribution based on years of experience?'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8B535AEF-5FAD-4C4A-BFC2-50CF25D62864}' />
+    </window>
+    <window class='worksheet' name='5-Highest and Lowest average salaries'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='31'>
+            <card type='columns' />
+          </strip>
+          <strip size='31'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0w0rqur14j56ew119br5118rt7ex].[none:department:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{CE804B3E-BE46-465F-B1B0-3C6F865CB014}' />
+    </window>
+    <window class='worksheet' name='6-Average satisfaction level across different job roles'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='31'>
+            <card type='columns' />
+          </strip>
+          <strip size='31'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0w0rqur14j56ew119br5118rt7ex].[none:jobrole:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{1EE4289D-4066-4B9B-B3BD-BA6FF4EC04F9}' />
+    </window>
+    <window class='worksheet' name='7-Relationship between satisfaction level and salary'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0w0rqur14j56ew119br5118rt7ex].[none:jobrole:nk]' type='filter' />
+            <card param='[federated.0w0rqur14j56ew119br5118rt7ex].[none:gender:nk]' type='filter' />
+            <card param='[federated.0w0rqur14j56ew119br5118rt7ex].[none:department:nk]' type='filter' />
+            <card pane-specification-id='1' param='[federated.0w0rqur14j56ew119br5118rt7ex].[none:attrition:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{6B02DC4D-8E53-403B-88B6-BC8390D1B91D}' />
+    </window>
+    <window class='worksheet' name='8-Do employees with higher education levels report higher satisfaction?'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0w0rqur14j56ew119br5118rt7ex].[none:educationlevel:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{7D19FE89-1A3E-47FE-A9C5-4E3A5C57D64B}' />
+    </window>
+    <window class='worksheet' name='9-Which departments have the most satisfied and least satisfied employees'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0w0rqur14j56ew119br5118rt7ex].[none:department:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{7F3C8798-D604-4C5B-8A43-91EBD187003D}' />
+    </window>
+    <window class='worksheet' name='10-Dose job role impact satisfaction level'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0w0rqur14j56ew119br5118rt7ex].[none:jobrole:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{1C3DE399-2A74-443E-BB76-FE7FE6C827D1}' />
+    </window>
+    <window class='worksheet' name='11-Overall employee attrition rate'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0w0rqur14j56ew119br5118rt7ex].[none:attrition:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{2F882635-4B95-47DF-B3E5-6E83DF5A4BCE}' />
+    </window>
+    <window class='worksheet' name='12-Which department has the highest employee turnover?'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='31'>
+            <card type='columns' />
+          </strip>
+          <strip size='31'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='checklist' param='[federated.0w0rqur14j56ew119br5118rt7ex].[none:gender:nk]' type='filter' values='database' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{3569F49E-0F2C-45AF-A095-774CFECB5062}' />
+    </window>
+    <window class='worksheet' name='13-connection between satisfaction level and attrition'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='31'>
+            <card type='columns' />
+          </strip>
+          <strip size='31'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='checklist' param='[federated.0w0rqur14j56ew119br5118rt7ex].[none:attrition:nk]' type='filter' values='database' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B046CD6C-CA9B-4912-B10E-A1653541D70D}' />
+    </window>
+    <window class='worksheet' name='14-Employees with higher education levels have lower attrition rates'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='31'>
+            <card type='columns' />
+          </strip>
+          <strip size='31'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0w0rqur14j56ew119br5118rt7ex].[none:attrition:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A5CB06C1-3A47-4951-93B9-DEB35427ECE0}' />
+    </window>
+    <window class='worksheet' name='15-How does tenure impact attrition'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='31'>
+            <card type='columns' />
+          </strip>
+          <strip size='31'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0w0rqur14j56ew119br5118rt7ex].[none:attrition:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C796BF43-D9F2-4BE5-9E6C-7783962E0B7C}' />
+    </window>
+    <window class='worksheet' name='16-How long does it take on average for employees to receive a promotion'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='31'>
+            <card type='columns' />
+          </strip>
+          <strip size='31'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{2F966CA5-DDD8-40B0-BF9A-933BFFBCBE94}' />
+    </window>
+    <window class='worksheet' name='17-Is there a correlation between education level and promotion frequency?'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='31'>
+            <card type='columns' />
+          </strip>
+          <strip size='31'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0w0rqur14j56ew119br5118rt7ex].[none:educationlevel:nk]' type='color' />
+            <card param='[federated.0w0rqur14j56ew119br5118rt7ex].[sum:Calculation_1055585749430312:qk]' type='size' />
+            <card mode='checklist' param='[federated.0w0rqur14j56ew119br5118rt7ex].[none:gender:nk]' type='filter' values='database' />
+            <card mode='checklist' param='[federated.0w0rqur14j56ew119br5118rt7ex].[none:department:nk]' type='filter' values='database' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{1A2FD8B8-6ACD-4DA9-A4E3-6F2EF6A90001}' />
+    </window>
+    <window class='worksheet' name='18-Which departments promote employees the fastest and the slowest?'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='31'>
+            <card type='columns' />
+          </strip>
+          <strip size='31'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0w0rqur14j56ew119br5118rt7ex].[none:department:nk]' type='color' />
+            <card mode='checklist' param='[federated.0w0rqur14j56ew119br5118rt7ex].[none:yearssincelastpromotion:qk]' type='filter' values='database' />
+            <card mode='checklist' param='[federated.0w0rqur14j56ew119br5118rt7ex].[none:gender:nk]' type='filter' values='database' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F0C9FB93-6BC5-414A-823B-795209EDE99F}' />
+    </window>
+    <window class='worksheet' name='19-What percentage of satisfied employees receive promotions?'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='31'>
+            <card type='columns' />
+          </strip>
+          <strip size='31'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0w0rqur14j56ew119br5118rt7ex].[none:Calculation_1055585763799083:nk]' type='color' />
+            <card param='[federated.0w0rqur14j56ew119br5118rt7ex].[pcto:sum:Calculation_1055585749430312:qk]' type='size' />
+            <card mode='checklist' param='[federated.0w0rqur14j56ew119br5118rt7ex].[none:department:nk]' type='filter' values='database' />
+            <card mode='checklist' param='[federated.0w0rqur14j56ew119br5118rt7ex].[none:gender:nk]' type='filter' values='database' />
+            <card mode='checklist' param='[federated.0w0rqur14j56ew119br5118rt7ex].[none:jobrole:nk]' type='filter' values='database' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E043443B-7318-49B2-A3F8-F0CF2A89C48A}' />
+    </window>
+    <window class='worksheet' name='20-Dose gender impact promotion opportunities?'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='31'>
+            <card type='columns' />
+          </strip>
+          <strip size='31'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0w0rqur14j56ew119br5118rt7ex].[none:gender:nk]' type='color' />
+            <card param='[federated.0w0rqur14j56ew119br5118rt7ex].[pcto:sum:Calculation_1055585749430312:qk]' type='size' />
+            <card mode='checklist' param='[federated.0w0rqur14j56ew119br5118rt7ex].[none:department:nk]' type='filter' values='database' />
+            <card mode='checklist' param='[federated.0w0rqur14j56ew119br5118rt7ex].[none:educationlevel:nk]' type='filter' values='database' />
+            <card mode='checklist' param='[federated.0w0rqur14j56ew119br5118rt7ex].[none:jobrole:nk]' type='filter' values='database' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{3964FFF9-902F-4276-BD5B-88D2CCF0EF6D}' />
+    </window>
+    <window class='worksheet' name='Sheet 21'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{12D6D94B-0B6D-4EB4-B623-ED4D7A4568ED}' />
+    </window>
+    <window class='worksheet' name='Sheet 22'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{53A537C8-1FEA-4ADA-9F48-ECBB546CA711}' />
+    </window>
+  </windows>
+</workbook>
